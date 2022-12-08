@@ -22,7 +22,13 @@ Note that we did not use the data of `mer-b` from [site2](https://zenodo.org/rec
 ---
 ### Experiments on LPSC
 
-In our paper, we performed a 5-fold cross validation experiment over the LPSC dataset. In the rest of this section, we show how to run experiments over LPSC step by step. 
+In our paper, we performed a 5-fold cross validation experiment over the LPSC dataset. All codes could be found under the `scripts/` directory. In brevity, the codes are organized in the following way:
+
+   + `scripts/UBmodel/`: contains the source codes of the unary and binary relation extraction models
+   + `scripts/meta_extraction/`: contains the source codes of the meta classifier that extracts binary relations using both the unary and binary relation extraction models
+   + `scripts/shared/`: contains some utility functions and data structures that are commonly imported in other files
+
+In the rest of this section, we show how to run experiments over LPSC step by step. 
 
 #### 1. Data Preprocesseing
 
