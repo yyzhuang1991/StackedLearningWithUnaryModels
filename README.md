@@ -13,7 +13,7 @@ We also require the CoreNLP package for the data preprocessing. Please install S
 
 ---
 ### Download Data 
-Our experiments mainly use the LPSC dataset, which could be collected from [site1 (lpsc15 and lpsc16)](https://zenodo.org/record/1048419#.Y5FaYOzMIW8) and [site2](https://zenodo.org/record/7066107#.Y5ENJezMIW8). The dataset contains human annotations for the task of named entity recognition and relation extraction over planetary scientific publications relevant to several Mars missions. Please use the following command to collect the dataset: 
+Our experiments mainly use the LPSC dataset, which could be collected from [site1 (lpsc15 and lpsc16)](https://zenodo.org/record/1048419#.Y5FaYOzMIW8) and [site2 (mer-a, phx and mpf)](https://zenodo.org/record/7066107#.Y5ENJezMIW8). The dataset contains human annotations for the task of named entity recognition and relation extraction over planetary scientific publications relevant to several Mars missions. Please use the following command to collect the dataset: 
 
     bash get_lpsc_data.sh 
    
