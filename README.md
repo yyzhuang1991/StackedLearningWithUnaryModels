@@ -39,7 +39,7 @@ Note that we first use about 25% files in the original dataset to construct a de
 
 #### 2. Train Unary and Binary Relation Extraction Models
 
-Next, we train the unary and binary relation models. In the following instruction, we show how to run experiments for the relation `Contains`. The same things would apply to the relation `HasProperty`. 
+Next, we train the unary and binary relation extraction models. In the following instruction, we show how to run experiments for the relation `Contains`. The same things would apply to the relation `HasProperty`. 
 
 First let's set the relation: 
 
